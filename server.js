@@ -7,7 +7,7 @@
  */
 
 function Tracker(client, username) {
-  if(!client) throw new Error('No token provided.');
+  if(!client) throw new Error('No client provided.');
   if(!username || typeof username != 'string') throw new Error('No username provided.');
 
   require('./source/get_count.js')(username).then(data => {
