@@ -1,6 +1,6 @@
 {
   "name": "gets-from-username",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "This package gets to you the followers count, follows count, post count and all posts (with comments, like count, shortcode) on Instagram of the username you specify.",
   "main": "server.js",
   "scripts": {
@@ -12,6 +12,7 @@
     "discord.js": "^13.3.1",
     "request": "^2.88.2"
   },
+  "homepage": "https://github.com/chimpdev/gets-from-username#readme",
   "keywords": [
     "Instagram",
     "Post",
