@@ -1,6 +1,6 @@
 {
   "name": "gets-from-username",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "This package gets to you the followers count, follows count, post count and all posts (with comments, like count, shortcode) on Instagram of the username you specify.",
   "main": "server.js",
   "scripts": {
