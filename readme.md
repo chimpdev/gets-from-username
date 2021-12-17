@@ -13,7 +13,7 @@ $.get_posts('cristiano').then(console.log); // -> [{ ... }, { ... }, ...]
 
 // Post Tracker
 const Discord = require('discord.js');
-const client = new Discord.Client({ Intents: Object.values(Discord.Intents.FLAGS).reduce((a, b) => a + b) });
+const client = new Discord.Client({ intents: Object.values(Discord.Intents.FLAGS).reduce((a, b) => a + b) });
 client.login('your_bot_token');
 
 client.on('ready', () => {
