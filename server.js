@@ -31,14 +31,22 @@ module.exports = {
    * Get followers count, following count, post count from username on Instagram.
    * @author can#0002
    * @param {String} username
-
+   * @returns {Object} { followers: Number, following: Number, postCount: Number }
    */
   get_count: (username) => require('./source/get_count.js')(username),
   /**
    * Get last 12 posts (with comments, like count, shortcode) from username on Instagram.
    * @author can#0002
    * @param {String} username
+   * @returns {Array} Array of posts.
    */
   get_posts: (username) => require('./source/get_posts.js')(username),
+  /**
+   * Get profile data from username on Instagram.
+   * @author can#0002
+   * @param {String} username
+   * @returns {String} URL of profile picture. 
+   */
+  get_avatar: (username) => require('./source/get_avatar.js')(username),
   Tracker: Tracker
 };
