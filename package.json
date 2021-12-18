@@ -1,6 +1,6 @@
 {
   "name": "gets-from-username",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This package gets to you the counts(followers, follows, post), last 12 posts (with comments, like count, shortcode), HD avatar url and Track posts for Discord.js bots on Instagram of the username you specify.",
   "main": "server.js",
   "scripts": {
